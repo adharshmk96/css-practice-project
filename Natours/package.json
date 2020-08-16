@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "csass": "node-sass sass/main.scss css/style.css -rw"
+    "csass": "node-sass sass/main.scss css/style.css -rw",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/style.comp.css css/icon-font.css"
   },
   "repository": {
     "type": "git",
